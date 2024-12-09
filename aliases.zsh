@@ -5,8 +5,7 @@ function alias_if_exists() {
 }
 
 {
-	alias pn="pushd ~/.config/nvim"
-	alias pz="pushd ~/.zsh"
+	alias vim=nvim
 }
 
 {
@@ -31,6 +30,8 @@ function alias_if_exists() {
 }
 
 {
+	alias pn="pushd ~/.config/nvim"
+	alias pz="pushd ~/.zsh"
 	alias cda="cd ~/proj/A/marius"
 	alias cdb="cd ~/proj/B/marius"
 	alias cdd="cd ~/proj/develop/marius"
